@@ -1,0 +1,23 @@
+{
+  "scannedAt": "2026-11-21T16:29:59.799Z",
+  "platform": "linux/amd64",
+  "trivyVersion": "0.76.2",
+  "dbUpdatedAt": "2026-11-21T13:02:47.203212637Z",
+  "sboms": {
+    "docker.io/valkey/valkey:9.2-alpine@sha256:c8e2d17498838af5d91e12eb7c11220b3434a7b7131a333e3af52ad5e0b80882": "sha256-c8e2d17498838af5d91e12eb7c11220b3434a7b7131a333e3af52ad5e0b80882.linux-amd64",
+    "docker.io/valkey/valkey:9.2-alpine@sha256:cdcb7b1c7b6f1c9cb9442c71ac6275e78184657448407b2c1fdde7ee8024f4fb": "sha256-cdcb7b1c7b6f1c9cb9442c71ac6275e78184657448407b2c1fdde7ee8024f4fb.linux-amd64",
+    "ghcr.io/cloudnative-pg/postgresql:17.11": "sha256-70664ebcfa1100361b5bdc28bbf06fdbe08db2dc4ad7bd14de33c5e05fe8ea8e.linux-amd64",
+    "ghcr.io/cloudnative-pg/postgresql:18.6": "sha256-899d3ed526b659d77935dde0e6bf2d69dbbf17d3d8c6486ca8cfd04bd3c18533.linux-amd64",
+    "haproxy:3.4.8-alpine": "sha256-8aa6458a9d22a8364a2d2ee9ce93de0cc4a2789e3cf63f0b44adc972863724d7.linux-amd64",
+    "haproxy:3.4.7-alpine": "sha256-b9fe316f718d5015c5cfebd8ca019591f3e44656f61d93cb8b59a1028961e530.linux-amd64",
+    "lscr.io/linuxserver/prowlarr:2.7.0": "sha256-6660787a99b2e58203539583663c973b48979fc00ff2cb78dc0ea17429e1f6ef.linux-amd64",
+    "nginx:1-alpine": "sha256-fb4658584bd9a916ffb6f6e365f97c25cfdb2923801f551ea08356e695f14ff7.linux-amd64",
+    "quay.io/argoproj/argocd:v3.6.1": "sha256-296e3d74f449b2ce45265613fcb68c18ed7366488360c8ea32f5f2a93d2e5c54.linux-amd64",
+    "lscr.io/linuxserver/prowlarr:3.0.2": "sha256-45117ba8439e2337a92ffe38a451a4dafc0be771754d05d88cdf102419d09646.linux-amd64",
+    "quay.io/argoproj/argocd:v3.6.2": "sha256-bbcc3b6e79c5963439bdc5170f6e20a52365b41878133fac5ce8d6810d2641dc.linux-amd64",
+    "registry.k8s.io/kueue/kueue:v0.20.6": "sha256-20465f0e56a4eed90ec07fa7838866a90f7b6890c0adc84be86aaee307a6744a.linux-amd64",
+    "registry.k8s.io/kueue/kueue:v0.20.7": "sha256-305131bb4074a6fbd62c9289807fc9adcc794c2606fdaf276a2a0fc1ff914d7c.linux-amd64",
+    "rajnandan1/kener:v4.2.2": "sha256-69352c486147816d5236c42ca55b08747365441f63bbf1a8c13d2941a72a088d.linux-amd64",
+    "rajnandan1/kener:4.2.1": "sha256-116af4895e8054e6855eb9cee49bf1c09528d0204881639790515250e743636c.linux-amd64"
+  }
+}

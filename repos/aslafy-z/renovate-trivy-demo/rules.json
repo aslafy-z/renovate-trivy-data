@@ -1,0 +1,121 @@
+{
+  "packageRules": [
+    {
+      "description": "renovate-trivy: docker.io/valkey/valkey 9.2-alpine@cdcb7b1c7b6f -> 9.2-alpine@c8e2d1749883 fixes 2 critical/high CVEs",
+      "matchRepositories": [
+        "aslafy-z/renovate-trivy-demo"
+      ],
+      "matchDatasources": [
+        "docker"
+      ],
+      "matchPackageNames": [
+        "docker.io/valkey/valkey"
+      ],
+      "matchCurrentValue": "/^9\\.2-alpine$/",
+      "matchNewValue": "/^9\\.2-alpine$/",
+      "matchJsonata": [
+        "newDigest = \"sha256:c8e2d17498838af5d91e12eb7c11220b3434a7b7131a333e3af52ad5e0b80882\""
+      ],
+      "schedule": [
+        "at any time"
+      ],
+      "prPriority": 10,
+      "addLabels": [
+        "security"
+      ],
+      "prBodyNotes": [
+        "🛡️ **Trivy**: `docker.io/valkey/valkey` `9.2-alpine@cdcb7b1c7b6f` → `9.2-alpine@c8e2d1749883` fixes **0 critical** and **2 high** CVEs ([CVE-2026-107891](https://avd.aquasec.com/nvd/cve-2026-107891), [CVE-2026-85091](https://avd.aquasec.com/nvd/cve-2026-85091)). 0 critical / 0 high remain · [full report](https://github.com/aslafy-z/renovate-trivy-data/blob/main/repos/aslafy-z/renovate-trivy-demo/report.md)"
+      ]
+    },
+    {
+      "description": "renovate-trivy: lscr.io/linuxserver/prowlarr 2.7.0 -> 3.0.2 fixes 23 critical/high CVEs",
+      "matchRepositories": [
+        "aslafy-z/renovate-trivy-demo"
+      ],
+      "matchDatasources": [
+        "docker"
+      ],
+      "matchPackageNames": [
+        "lscr.io/linuxserver/prowlarr"
+      ],
+      "matchCurrentValue": "/^2\\.7\\.0$/",
+      "matchNewValue": "/^3\\.0\\.2$/",
+      "schedule": [
+        "at any time"
+      ],
+      "prPriority": 10,
+      "addLabels": [
+        "security"
+      ],
+      "prBodyNotes": [
+        "🛡️ **Trivy**: `lscr.io/linuxserver/prowlarr` `2.7.0` → `3.0.2` fixes **2 critical** and **21 high** CVEs ([CVE-2026-70188](https://avd.aquasec.com/nvd/cve-2026-70188), [CVE-2026-88092](https://avd.aquasec.com/nvd/cve-2026-88092), [CVE-2026-114146](https://avd.aquasec.com/nvd/cve-2026-114146), [CVE-2026-114147](https://avd.aquasec.com/nvd/cve-2026-114147), [CVE-2026-114149](https://avd.aquasec.com/nvd/cve-2026-114149) and 18 more). 0 critical / 1 high remain · [full report](https://github.com/aslafy-z/renovate-trivy-data/blob/main/repos/aslafy-z/renovate-trivy-demo/report.md)"
+      ]
+    },
+    {
+      "description": "renovate-trivy: quay.io/argoproj/argocd v3.6.1 -> v3.6.2 fixes 1 critical/high CVEs",
+      "matchRepositories": [
+        "aslafy-z/renovate-trivy-demo"
+      ],
+      "matchDatasources": [
+        "docker"
+      ],
+      "matchPackageNames": [
+        "quay.io/argoproj/argocd"
+      ],
+      "matchCurrentValue": "/^v3\\.6\\.1$/",
+      "matchNewValue": "/^v3\\.6\\.2$/",
+      "schedule": [
+        "at any time"
+      ],
+      "prPriority": 10,
+      "addLabels": [
+        "security"
+      ],
+      "prBodyNotes": [
+        "🛡️ **Trivy**: `quay.io/argoproj/argocd` `v3.6.1` → `v3.6.2` fixes **0 critical** and **1 high** CVEs ([CVE-2026-109518](https://avd.aquasec.com/nvd/cve-2026-109518)). 0 critical / 16 high remain · [full report](https://github.com/aslafy-z/renovate-trivy-data/blob/main/repos/aslafy-z/renovate-trivy-demo/report.md)"
+      ]
+    },
+    {
+      "description": "renovate-trivy: registry.k8s.io/kueue/kueue v0.20.6 -> v0.20.7 fixes 3 critical/high CVEs",
+      "matchRepositories": [
+        "aslafy-z/renovate-trivy-demo"
+      ],
+      "matchDatasources": [
+        "docker"
+      ],
+      "matchPackageNames": [
+        "registry.k8s.io/kueue/kueue"
+      ],
+      "matchCurrentValue": "/^v0\\.20\\.6$/",
+      "matchNewValue": "/^v0\\.20\\.7$/",
+      "schedule": [
+        "at any time"
+      ],
+      "prPriority": 10,
+      "addLabels": [
+        "security"
+      ],
+      "prBodyNotes": [
+        "🛡️ **Trivy**: `registry.k8s.io/kueue/kueue` `v0.20.6` → `v0.20.7` fixes **0 critical** and **3 high** CVEs ([CVE-2026-116587](https://avd.aquasec.com/nvd/cve-2026-116587), [CVE-2026-78661](https://avd.aquasec.com/nvd/cve-2026-78661), [CVE-2026-78669](https://avd.aquasec.com/nvd/cve-2026-78669)). 0 critical / 1 high remain · [full report](https://github.com/aslafy-z/renovate-trivy-data/blob/main/repos/aslafy-z/renovate-trivy-demo/report.md)"
+      ]
+    },
+    {
+      "description": "renovate-trivy: haproxy shares a branch with a security fix",
+      "matchRepositories": [
+        "aslafy-z/renovate-trivy-demo"
+      ],
+      "matchDatasources": [
+        "docker"
+      ],
+      "matchPackageNames": [
+        "haproxy"
+      ],
+      "matchCurrentValue": "/^3\\.4\\.7-alpine$/",
+      "matchNewValue": "/^3\\.4\\.8-alpine$/",
+      "schedule": [
+        "at any time"
+      ],
+      "prPriority": 10
+    }
+  ]
+}

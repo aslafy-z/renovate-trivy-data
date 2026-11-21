@@ -1,0 +1,7 @@
+{
+  "ref": "quay.io/argoproj/argocd:v3.6.1",
+  "digest": "sha256:296e3d74f449b2ce45265613fcb68c18ed7366488360c8ea32f5f2a93d2e5c54",
+  "platform": "linux/amd64",
+  "trivyVersion": "0.76.2",
+  "createdAt": "2026-11-21T16:02:25.241Z"
+}

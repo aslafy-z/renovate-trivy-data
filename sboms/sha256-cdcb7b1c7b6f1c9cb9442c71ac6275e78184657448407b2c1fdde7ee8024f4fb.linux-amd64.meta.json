@@ -1,0 +1,7 @@
+{
+  "ref": "docker.io/valkey/valkey:9.2-alpine@sha256:cdcb7b1c7b6f1c9cb9442c71ac6275e78184657448407b2c1fdde7ee8024f4fb",
+  "digest": "sha256:cdcb7b1c7b6f1c9cb9442c71ac6275e78184657448407b2c1fdde7ee8024f4fb",
+  "platform": "linux/amd64",
+  "trivyVersion": "0.76.2",
+  "createdAt": "2026-11-21T16:02:14.454Z"
+}

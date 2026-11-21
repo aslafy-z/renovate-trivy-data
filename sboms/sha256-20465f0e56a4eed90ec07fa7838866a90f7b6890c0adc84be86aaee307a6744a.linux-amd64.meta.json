@@ -1,0 +1,7 @@
+{
+  "ref": "registry.k8s.io/kueue/kueue:v0.20.6",
+  "digest": "sha256:20465f0e56a4eed90ec07fa7838866a90f7b6890c0adc84be86aaee307a6744a",
+  "platform": "linux-amd64",
+  "trivyVersion": "0.76.2",
+  "createdAt": "2026-11-21T16:15:54.027Z"
+}

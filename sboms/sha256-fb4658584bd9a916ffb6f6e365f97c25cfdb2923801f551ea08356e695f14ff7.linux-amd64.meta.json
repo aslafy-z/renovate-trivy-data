@@ -1,0 +1,7 @@
+{
+  "ref": "nginx:1-alpine",
+  "digest": "sha256:fb4658584bd9a916ffb6f6e365f97c25cfdb2923801f551ea08356e695f14ff7",
+  "platform": "linux/amd64",
+  "trivyVersion": "0.76.2",
+  "createdAt": "2026-11-21T16:02:17.992Z"
+}
