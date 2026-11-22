@@ -1,7 +1,0 @@
-{
-  "ref": "ghcr.io/cloudnative-pg/postgresql:18.6",
-  "digest": "sha256:899d3ed526b659d77935dde0e6bf2d69dbbf17d3d8c6486ca8cfd04bd3c18533",
-  "platform": "linux-amd64",
-  "trivyVersion": "0.76.2",
-  "createdAt": "2026-11-21T16:15:54.027Z"
-}

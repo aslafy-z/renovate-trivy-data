@@ -1,7 +1,0 @@
-{
-  "ref": "lscr.io/linuxserver/prowlarr:2.7.0",
-  "digest": "sha256:6660787a99b2e58203539583663c973b48979fc00ff2cb78dc0ea17429e1f6ef",
-  "platform": "linux/amd64",
-  "trivyVersion": "0.76.2",
-  "createdAt": "2026-11-21T16:02:20.534Z"
-}
