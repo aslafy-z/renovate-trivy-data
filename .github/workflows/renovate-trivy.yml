@@ -68,3 +68,6 @@ jobs:
       - uses: aslafy-z/renovate-trivy@main
         with:
           step: publish
+          # The preset's dashboard footer replaces Renovate's own. The hosted
+          # app keeps its "run again" checkbox there: put it back.
+          dashboard-footer: " - [ ] <!-- manual job -->Check this box to trigger a request for Renovate to run again on this repository"
