@@ -1,0 +1,109 @@
+{
+  "packageRules": [
+    {
+      "description": "renovate-trivy: docker.io/valkey/valkey 9.2-alpine@cdcb7b1c7b6f -> 9.2-alpine@3ad5a213cb1b fixes 2 critical/high CVEs",
+      "matchDatasources": [
+        "docker"
+      ],
+      "matchPackageNames": [
+        "docker.io/valkey/valkey"
+      ],
+      "matchCurrentValue": "/^9\\.2-alpine$/",
+      "matchNewValue": "/^9\\.2-alpine$/",
+      "matchJsonata": [
+        "currentDigest = \"sha256:cdcb7b1c7b6f1c9cb9442c71ac6275e78184657448407b2c1fdde7ee8024f4fb\" and newDigest = \"sha256:3ad5a213cb1bc2fd4a113c89b6248a88655a6bf1dda69519d04e03cd3e3d2742\""
+      ],
+      "schedule": [
+        "at any time"
+      ],
+      "prPriority": 10,
+      "addLabels": [
+        "security"
+      ],
+      "prBodyNotes": [
+        "🛡️ **Trivy**: `docker.io/valkey/valkey` `9.2-alpine@cdcb7b1c7b6f` → `9.2-alpine@3ad5a213cb1b` fixes **0 critical** and **2 high** CVEs ([CVE-2026-107891](https://avd.aquasec.com/nvd/cve-2026-107891), [CVE-2026-85091](https://avd.aquasec.com/nvd/cve-2026-85091)). 0 critical / 0 high remain"
+      ]
+    },
+    {
+      "description": "renovate-trivy: lscr.io/linuxserver/prowlarr 2.7.0 -> 3.1.0 fixes 24 critical/high CVEs",
+      "matchDatasources": [
+        "docker"
+      ],
+      "matchPackageNames": [
+        "lscr.io/linuxserver/prowlarr"
+      ],
+      "matchCurrentValue": "/^2\\.7\\.0$/",
+      "matchNewValue": "/^3\\.1\\.0$/",
+      "schedule": [
+        "at any time"
+      ],
+      "prPriority": 10,
+      "addLabels": [
+        "security"
+      ],
+      "prBodyNotes": [
+        "🛡️ **Trivy**: `lscr.io/linuxserver/prowlarr` `2.7.0` → `3.1.0` fixes **2 critical** and **22 high** CVEs ([CVE-2026-70188](https://avd.aquasec.com/nvd/cve-2026-70188), [CVE-2026-88092](https://avd.aquasec.com/nvd/cve-2026-88092), [CVE-2026-114146](https://avd.aquasec.com/nvd/cve-2026-114146) and 21 more). 0 critical / 6 high remain"
+      ]
+    },
+    {
+      "description": "renovate-trivy: quay.io/argoproj/argocd v3.6.1 -> v3.6.3 fixes 1 critical/high CVEs",
+      "matchDatasources": [
+        "docker"
+      ],
+      "matchPackageNames": [
+        "quay.io/argoproj/argocd"
+      ],
+      "matchCurrentValue": "/^v3\\.6\\.1$/",
+      "matchNewValue": "/^v3\\.6\\.3$/",
+      "schedule": [
+        "at any time"
+      ],
+      "prPriority": 10,
+      "addLabels": [
+        "security"
+      ],
+      "prBodyNotes": [
+        "🛡️ **Trivy**: `quay.io/argoproj/argocd` `v3.6.1` → `v3.6.3` fixes **0 critical** and **1 high** CVEs ([CVE-2026-109518](https://avd.aquasec.com/nvd/cve-2026-109518)). 0 critical / 15 high remain"
+      ]
+    },
+    {
+      "description": "renovate-trivy: registry.k8s.io/kueue/kueue v0.20.6 -> v0.20.8 fixes 3 critical/high CVEs",
+      "matchDatasources": [
+        "docker"
+      ],
+      "matchPackageNames": [
+        "registry.k8s.io/kueue/kueue"
+      ],
+      "matchCurrentValue": "/^v0\\.20\\.6$/",
+      "matchNewValue": "/^v0\\.20\\.8$/",
+      "schedule": [
+        "at any time"
+      ],
+      "prPriority": 10,
+      "addLabels": [
+        "security"
+      ],
+      "prBodyNotes": [
+        "🛡️ **Trivy**: `registry.k8s.io/kueue/kueue` `v0.20.6` → `v0.20.8` fixes **0 critical** and **3 high** CVEs ([CVE-2026-116587](https://avd.aquasec.com/nvd/cve-2026-116587), [CVE-2026-78661](https://avd.aquasec.com/nvd/cve-2026-78661), [CVE-2026-78669](https://avd.aquasec.com/nvd/cve-2026-78669)). 0 critical / 0 high remain"
+      ]
+    },
+    {
+      "description": "renovate-trivy: haproxy shares a branch with a security fix",
+      "matchRepositories": [
+        "aslafy-z/renovate-trivy-demo"
+      ],
+      "matchDatasources": [
+        "docker"
+      ],
+      "matchPackageNames": [
+        "haproxy"
+      ],
+      "matchCurrentValue": "/^3\\.4\\.7-alpine$/",
+      "matchNewValue": "/^3\\.4\\.8-alpine$/",
+      "schedule": [
+        "at any time"
+      ],
+      "prPriority": 10
+    }
+  ]
+}

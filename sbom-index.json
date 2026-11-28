@@ -1,0 +1,77 @@
+{
+ "sha256-116af4895e8054e6855eb9cee49bf1c09528d0204881639790515250e743636c.linux-amd64": {
+  "ref": "rajnandan1/kener:4.2.1",
+  "trivyVersion": "0.76.2",
+  "createdAt": "2026-11-22T13:08:32.334Z"
+ },
+ "sha256-20465f0e56a4eed90ec07fa7838866a90f7b6890c0adc84be86aaee307a6744a.linux-amd64": {
+  "ref": "registry.k8s.io/kueue/kueue:v0.20.6",
+  "trivyVersion": "0.76.2",
+  "createdAt": "2026-11-22T13:08:32.334Z"
+ },
+ "sha256-2806c9b763810589c42157730d547c293639e55c7610e9f5069314854639ec48.linux-amd64": {
+  "ref": "lscr.io/linuxserver/prowlarr:3.1.0",
+  "trivyVersion": "0.76.2",
+  "createdAt": "2026-11-24T13:48:42.515Z"
+ },
+ "sha256-296e3d74f449b2ce45265613fcb68c18ed7366488360c8ea32f5f2a93d2e5c54.linux-amd64": {
+  "ref": "quay.io/argoproj/argocd:v3.6.1",
+  "trivyVersion": "0.76.2",
+  "createdAt": "2026-11-22T13:08:32.334Z"
+ },
+ "sha256-3ad5a213cb1bc2fd4a113c89b6248a88655a6bf1dda69519d04e03cd3e3d2742.linux-amd64": {
+  "ref": "docker.io/valkey/valkey:9.2-alpine@sha256:3ad5a213cb1bc2fd4a113c89b6248a88655a6bf1dda69519d04e03cd3e3d2742",
+  "trivyVersion": "0.76.2",
+  "createdAt": "2026-11-26T12:40:34.044Z"
+ },
+ "sha256-6500cbc1e7f1c1f7f5e66f09e782b6b13c3066bc1dc8be97929530998ab2d9bc.linux-amd64": {
+  "ref": "registry.k8s.io/kueue/kueue:v0.20.8",
+  "trivyVersion": "0.76.2",
+  "createdAt": "2026-11-27T12:28:05.235Z"
+ },
+ "sha256-6660787a99b2e58203539583663c973b48979fc00ff2cb78dc0ea17429e1f6ef.linux-amd64": {
+  "ref": "lscr.io/linuxserver/prowlarr:2.7.0",
+  "trivyVersion": "0.76.2",
+  "createdAt": "2026-11-22T13:08:32.334Z"
+ },
+ "sha256-69352c486147816d5236c42ca55b08747365441f63bbf1a8c13d2941a72a088d.linux-amd64": {
+  "ref": "rajnandan1/kener:v4.2.2",
+  "trivyVersion": "0.76.2",
+  "createdAt": "2026-11-22T13:08:32.334Z"
+ },
+ "sha256-70664ebcfa1100361b5bdc28bbf06fdbe08db2dc4ad7bd14de33c5e05fe8ea8e.linux-amd64": {
+  "ref": "ghcr.io/cloudnative-pg/postgresql:17.11",
+  "trivyVersion": "0.76.2",
+  "createdAt": "2026-11-22T13:08:32.334Z"
+ },
+ "sha256-7fc0fb4af7bf006aeb31aea88069976060f8f0a0a86b667126742cc17f4e31ae.linux-amd64": {
+  "ref": "nginx:1-alpine",
+  "trivyVersion": "0.76.2",
+  "createdAt": "2026-11-26T12:40:34.044Z"
+ },
+ "sha256-899d3ed526b659d77935dde0e6bf2d69dbbf17d3d8c6486ca8cfd04bd3c18533.linux-amd64": {
+  "ref": "ghcr.io/cloudnative-pg/postgresql:18.6",
+  "trivyVersion": "0.76.2",
+  "createdAt": "2026-11-22T13:08:32.334Z"
+ },
+ "sha256-8aa6458a9d22a8364a2d2ee9ce93de0cc4a2789e3cf63f0b44adc972863724d7.linux-amd64": {
+  "ref": "haproxy:3.4.8-alpine",
+  "trivyVersion": "0.76.2",
+  "createdAt": "2026-11-22T13:08:32.334Z"
+ },
+ "sha256-b9fe316f718d5015c5cfebd8ca019591f3e44656f61d93cb8b59a1028961e530.linux-amd64": {
+  "ref": "haproxy:3.4.7-alpine",
+  "trivyVersion": "0.76.2",
+  "createdAt": "2026-11-22T13:08:32.334Z"
+ },
+ "sha256-cdcb7b1c7b6f1c9cb9442c71ac6275e78184657448407b2c1fdde7ee8024f4fb.linux-amd64": {
+  "ref": "docker.io/valkey/valkey:9.2-alpine@sha256:cdcb7b1c7b6f1c9cb9442c71ac6275e78184657448407b2c1fdde7ee8024f4fb",
+  "trivyVersion": "0.76.2",
+  "createdAt": "2026-11-22T13:08:32.334Z"
+ },
+ "sha256-f2e45010dbd6aeff01b845d212b436b2d8e7f44d90d437274906c2ab21e59e0d.linux-amd64": {
+  "ref": "quay.io/argoproj/argocd:v3.6.3",
+  "trivyVersion": "0.76.2",
+  "createdAt": "2026-11-25T13:00:47.888Z"
+ }
+}
